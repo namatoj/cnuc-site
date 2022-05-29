@@ -1,5 +1,5 @@
 ---
-title: 'This is a really example long post'
+title: 'This is a really long example post'
 date: '2022-05-29'
 ---
 
