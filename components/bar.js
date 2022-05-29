@@ -11,13 +11,12 @@ function getRandomValues(size) {
 }
 
 export default function Bar({ children }) {
-  // console.log(sections.length);
 
   const [sections, setSections] = useState([]);
   const barHeight = 30
 
-  const [minSpeed, setMinSpeed] = useState([]);
-  const [maxSpeed, setMaxSpeed] = useState([]);
+  const [minSpeed, setMinSpeed] = useState(0);
+  const [maxSpeed, setMaxSpeed] = useState(0);
 
   useEffect(() => {
     const minSpeed =
@@ -55,7 +54,6 @@ export default function Bar({ children }) {
   return (
     <div className={styles.bar}>
       {sections.map((section, index) => {
-        console.log(sections.length, index);
 
         return (
           <Section
