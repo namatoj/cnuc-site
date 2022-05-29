@@ -19,8 +19,10 @@ export default function Bar({ children }) {
   const [maxSpeed, setMaxSpeed] = useState(0);
 
   useEffect(() => {
+    const scrollMaxY = document.documentElement.scrollHeight - document.documentElement.clientHeight
+
     const minSpeed =
-      (window.innerHeight - barHeight) / (window.scrollMaxY );
+      (window.innerHeight - barHeight) / (scrollMaxY );
 
     const maxSpeed = 4 * minSpeed
 
@@ -36,8 +38,9 @@ export default function Bar({ children }) {
   }, []);
 
   const onResize = () => {
+    const scrollMaxY = document.documentElement.scrollHeight - document.documentElement.clientHeight
     const min =
-      (window.innerHeight - barHeight) / (window.scrollMaxY );
+      (window.innerHeight - barHeight) / (scrollMaxY );
 
     setMinSpeed(min)
     setMaxSpeed(4 * min )
