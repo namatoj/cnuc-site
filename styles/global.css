@@ -26,3 +26,8 @@ img {
   max-width: 100%;
   display: block;
 }
+
+p {
+  background: rgba(192,192,192,0.1);
+  padding: 6px 12px;
+}
