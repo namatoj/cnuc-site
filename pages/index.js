@@ -20,23 +20,23 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>I like to build things and put them on the internet.</p>
+        <p>Below is where I put things on the internet. Writings are <Link href="/posts">here</Link></p>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>{date}</small>
-
-            </li>
-          ))}
-        </ul>
-      </section>
+    <section>
+      <ul>
+        <li><Link href="https://riksdag.cnuc.nu">riksdag</Link> data visualization between 1993 to 2022 of members of the Parliament of Sweden</li>
+        <li><Link href="https://dots.cnuc.nu">dots</Link> geolocated position marking collaboration tool, continuation of maps.cnuc.nu</li>
+        <li><Link href="https://map.cnuc.nu">map</Link> crude geolocated position marking collaboration tool</li>
+        <li><Link href="https://time.cnuc.nu">time</Link> the passing of time in circles</li>
+        <li><Link href="https://tick.cnuc.nu">tick</Link> time keeping in second increments</li>
+        <li><Link href="https://kpi.cnuc.nu">kpi</Link> tiny tool to calculate inflation of Sweden normalized cost</li>
+        <li><Link href="https://grid.cnuc.nu">grid</Link> non interactive points moving in a grid</li>
+        <li><Link href="https://blink.cnuc.nu">blink</Link> festive lighting as a service</li>
+        <li><Link href="https://snow.cnuc.nu">snow</Link> holiday greeting card</li>
+        <li><Link href="https://click.cnuc.nu">click</Link> keycode testing tool, press a key. (Unfortunate UI)</li>
+        <li><Link href="http://sida.cnuc.nu">sida</Link> award winning contibution to OpenHack hackathon</li>
+      </ul>
+    </section>
     </Layout>
   );
 }
