@@ -26,7 +26,9 @@ export default function Bar({ children }) {
 
     const maxSpeed = 4 * minSpeed
 
-    const speedList = getRandomValues(Math.random() * 30 + 10) 
+    const numberOfSections = document.documentElement.clientWidth / 60
+
+    const speedList = getRandomValues(numberOfSections) 
     const min = Math.min(...speedList)
 
     const speedList2 = speedList.map(speed => speed - min)
