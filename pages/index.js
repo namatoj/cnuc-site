@@ -21,6 +21,7 @@ export default function Home() {
         <li><Link href="https://dots.cnuc.nu">dots</Link> geolocated position marking collaboration tool, continuation of maps.cnuc.nu</li>
         <li><Link href="https://map.cnuc.nu">map</Link> crude geolocated position marking collaboration tool</li>
         <li><Link href="https://time.cnuc.nu">time</Link> the passing of time in circles</li>
+        <li><Link href="https://dials.cnuc.nu">dials</Link> the passing of time in dots</li>
         <li><Link href="https://tick.cnuc.nu">tick</Link> time keeping in second increments</li>
         <li><Link href="https://kpi.cnuc.nu">kpi</Link> tiny tool to calculate inflation of Sweden normalized cost</li>
         <li><Link href="https://snow.cnuc.nu">snow</Link> holiday greeting card</li>
