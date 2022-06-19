@@ -11,7 +11,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Things I've written are <Link href="/posts">here</Link>. Listed below are some things I've made by myself or in collaboration with others.</p>
+        <p>Texts I've written are found <Link href="/posts">here</Link>. Listed below are some things I've made by myself or in collaboration with others.</p>
       </section>
     <section>
       <ul>
