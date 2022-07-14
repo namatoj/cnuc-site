@@ -10,4 +10,4 @@ Ingredients:
 - 1⁄2 dl Rapeseed Oil
 - 1⁄2 krm Salt
 
-Stir and bake. Yum.
+Stir and bake. Yum, yum.
