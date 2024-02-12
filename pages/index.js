@@ -15,6 +15,7 @@ export default function Home() {
       </section>
     <section>
       <ul>
+        <li><Link href="https://gradient.cnuc.nu">gradient</Link> bring order to chaos</li>
         <li><Link href="https://blink.cnuc.nu">blink</Link> festive lighting as a service</li>
         <li><Link href="https://grid.cnuc.nu">grid</Link> non interactive points moving in a grid</li>
         <li><Link href="https://riksdag.cnuc.nu">riksdag</Link> data visualization between 1993 to 2022 of members of the Parliament of Sweden</li>
